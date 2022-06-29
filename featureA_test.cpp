@@ -15,7 +15,7 @@ void null_pointer_deference_general_mustA()
 {
 	int *iPtrA = NULL;
 
-	//if (iPtr != NULL) 
-		*iPtrA = 2;
+	if (iPtr != NULL) 
+	   *iPtrA = 2;
 
 }
