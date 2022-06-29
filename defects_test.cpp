@@ -6,7 +6,7 @@
 int main() {
 	char *a;
 
-	a = new char;
+	// a = 2;
 	// free(a);
 	return 0;
 }
