@@ -13,8 +13,9 @@ void array_boundary_violationA()
 
 void null_pointer_deference_general_mustA()
 {
-	int *iPtr = NULL;
+	int *iPtrA = NULL;
 
-	if (iPtr != NULL) *iPtr = 2;
+	//if (iPtr != NULL) 
+		*iPtrA = 2;
 
 }

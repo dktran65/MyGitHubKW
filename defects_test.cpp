@@ -15,7 +15,7 @@ void array_boundary_violation()
 {
 	int aBV[3] = {1,2,3};
 
-	aBV[1]= 5;
+	aBV[3]= 5;
 }
 
 
@@ -23,6 +23,6 @@ void null_pointer_deference_general_must()
 {
 	int *iPtr = NULL;
 
-	// *iPtr = 2;
+	 *iPtr = 2;
 
 }
