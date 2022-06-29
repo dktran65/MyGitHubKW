@@ -15,7 +15,7 @@ void array_boundary_violation()
 {
 	int aBV[3] = {1,2,3};
 
-	aBV[3]= 5;
+	aBV[2]= 5;
 }
 
 
