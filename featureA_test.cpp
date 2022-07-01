@@ -35,5 +35,5 @@ int f1aA(int vector)
      return z;  
   }
   
-  return get_data_size(z);
+  return z;
 }
