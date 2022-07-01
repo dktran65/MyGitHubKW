@@ -6,8 +6,8 @@
 int main() {
 	char *a;
 
-	a = new char;
-	free(a);
+	// a = new char;
+	// free(a);
 	return 0;
 }
 
@@ -15,7 +15,7 @@ void array_boundary_violation()
 {
 	int aBV[3] = {1,2,3};
 
-	aBV[4]= 5;
+	aBV[1]= 5;
 }
 
 
