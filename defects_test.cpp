@@ -41,5 +41,5 @@ void example_data_cast_diff(void) {
 	u32 value32 = get_u32_value();
 	u64 value64 = get_u64_value();
 
-	value64 &= u64 ~mask32;
+	value64 &= u64 (~mask32);
 }
