@@ -20,3 +20,20 @@ void null_pointer_deference_general_mustA()
 	   *iPtrA = 2;
 
 }
+
+
+int f1aA(int vector)
+{
+  int direction[3] = {1,2,3};
+  int z = 0;
+  
+  if (vector >= 0 && z>= 0) {
+     z = direction[1] + direction[3];
+     return z; 
+  } else {
+     z = direction[2] - direction[1];
+     return z;  
+  }
+  
+  return get_data_size(z);
+}
