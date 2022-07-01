@@ -7,11 +7,8 @@ void array_boundary_violationA()
 {
 	int aBV[1] = {1,2,3};
 
-<<<<<<< HEAD
 	aBV[1]= 5;
-=======
-	aBV[2]= 5;
->>>>>>> 3603d8a75a3e0e67538194ea8c036dca6940a3de
+
 }
 
 
