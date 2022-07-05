@@ -28,7 +28,7 @@ int f1aA(int vector)
   int z = 0;
   
   if (vector >= 0 && z>= 0) {
-     z = direction[4] + direction[2];
+     z = direction[1] + direction[2];
      return z; 
   } else {
      z = direction[2] - direction[1];
